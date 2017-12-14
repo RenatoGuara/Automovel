@@ -22,8 +22,8 @@ public class SchemaGeneration {
         EntityManager manager = factory.createEntityManager();
         manager.getTransaction().begin();
         Automovel auto = new Automovel();
-        auto.setAnoFabricacao(2014);
-        auto.setObservacoes("Nunca foi batido");
+        auto.setAnoFabricacao(2019);
+        auto.setObservacoes("Nunca foi batido hjjjjj");
         manager.persist(auto);
         manager.getTransaction().commit();
         
